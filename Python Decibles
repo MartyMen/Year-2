@@ -1,0 +1,24 @@
+#Enter the average mark as a String
+soundlevel = input("Please enter the Sound level in dB and press return: ")
+
+#Convert the soundlevel from a String to an int
+soundlevel = int(soundlevel)
+
+#Determine and print out consequenses
+
+if( soundlevel > 140 or soundlevel < 0 ):
+  print("Invalid")
+elif soundlevel <= 139 and soundlevel > 129:
+  print("Threshold of Pain")
+elif soundlevel <= 129 and soundlevel > 119:
+  print("Possible hearing damage")
+elif soundlevel <= 119 and soundlevel > 99:
+  print("Jack hammer at 1m")
+elif soundlevel <= 99  and soundlevel > 89:
+  print("Traffic on a busy roadway")
+elif soundlevel <= 89  and soundlevel > 59:
+  print("Normal Conversation")
+elif soundlevel <= 59  and soundlevel > 29:
+  print("Library")
+else:
+  print("Leaves Rustling")
