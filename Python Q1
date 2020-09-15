@@ -1,0 +1,18 @@
+#Name Entry
+name = input("Please enter your name and press return: ")
+
+#Town Entry
+townname = input("Please enter your town name and press return")
+
+#Number of children
+children = input ("How many children to you have? Enter and press return")
+
+
+#Miles from work
+distance = input ("How far must you travel to work in miles?")
+
+
+print("Hello "+name)
+print("You live in "+townname)
+print("You have "+children+ " children, and live "+distance+" miles from work")
+print("Have a nice day :)")
