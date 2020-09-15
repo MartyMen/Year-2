@@ -1,0 +1,22 @@
+#Enter the average mark as a String
+Scale = input("Please enter the Richter value and press return: ")
+
+#Convert the scale from a String to an int
+Scale = int(Scale)
+
+#Determine and print out consequenses
+
+if( Scale > 12 or Scale < 0 ):
+  print("Invalid")
+elif Scale >= 8:
+  print("Most Structures Fall")
+elif Scale >= 7:
+  print("Many Buildings Destroyed")
+elif Scale >= 6:
+  print("Many Buildings badly damaged, some collapse.")
+elif Scale >= 4.5:
+  print("Damage to poorly constructed Buildings")
+else:
+  print("No Damage to buildings")
+  
+
