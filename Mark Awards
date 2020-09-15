@@ -1,0 +1,19 @@
+#Enter the average mark as a String
+averageMark = input("Please enter your average mark and press return: ")
+
+#Convert the average mark from a String to an int
+averageMark = int(averageMark)
+
+#Determine and print out Grade
+if( averageMark > 100 or averageMark < 0 ): #if mark outside range 0-100
+  print("Invalid")
+elif averageMark >= 70:  # mark between 70 and 100 (incl)
+  print("Distinction")
+elif averageMark >= 60:  # mark between 60 and 69 (incl)
+  print ("2.1")
+elif averageMark >= 50:  #Mark between 50 and 59 (incl)
+  print ("2.2")
+elif averageMark >= 40:  #Mark between 40 and 49 (incl)
+  print ("pass")
+else:
+  print ("Fail")         #Mark between 0 and 39 (incl)
