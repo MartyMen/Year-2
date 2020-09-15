@@ -1,0 +1,26 @@
+# Enter the Height as a String
+Height = input("Enter the Heght and press return: ")
+
+#print a blank line
+print()
+
+# Enter the Base as a String
+Base = input("Enter the Base and press return: ")
+
+# Convert the Height from a String to an int
+Height = int(Height)
+
+# Convert the Base from a String to an int
+Base = int(Base)
+
+# Calculate the area as a double
+Area = Base * Height / 2
+
+# Convert the Area from a double to an int
+Area = int(Area)
+
+# Print a blank line
+print()
+
+#print the Area (converted to a String )
+print("Area of the triangle is " + str(Area) + " square units")
