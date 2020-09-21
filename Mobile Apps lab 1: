@@ -1,0 +1,30 @@
+
+public class challenge {
+
+	public static void main(String[] args) 
+	{
+		int a = 6;
+		int b = 5;
+		int c = 6;
+		int d = 4;
+		int e = 10;
+		int f = 5; 
+		int g = 4;
+		int h = 3;
+		int i = 90;
+		int j = 8;
+
+		int ab = a + b;
+		int cd = c-d;
+		double ef = e/f;
+		int gh = g*h;
+		int ij = i%j;
+		
+		System.out.println("addition of "+a+" and "+b+"is : "+ab);
+		System.out.println("subtraction of "+c+" and "+d+"is : "+cd);
+		System.out.println("division of "+f+" and "+e+"is : "+ef);
+		System.out.println("multiplication of "+g+" and "+h+"is : "+gh);
+		System.out.println("modulo of "+j+" and "+i+"is : "+ij);
+	}
+
+}
